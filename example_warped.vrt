@@ -1,0 +1,237 @@
+<VRTDataset rasterXSize="43393" rasterYSize="70341" subClass="VRTWarpedDataset">
+  <SRS>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</SRS>
+  <GeoTransform> -1.4256654846428605e+07,  3.9743060615178152e+01,  0.0000000000000000e+00,  6.4671733347658040e+06,  0.0000000000000000e+00, -3.9743060615178152e+01</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="2" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="3" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="4" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="5" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="6" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="7" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="8" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="9" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="10" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="11" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="12" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="13" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="14" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="15" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="16" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="17" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="18" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="19" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="20" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="21" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="22" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="23" subClass="VRTWarpedRasterBand">
+    <NoDataValue>-9999</NoDataValue>
+  </VRTRasterBand>
+  <BlockXSize>512</BlockXSize>
+  <BlockYSize>128</BlockYSize>
+  <GDALWarpOptions>
+    <WarpMemoryLimit>6.71089e+07</WarpMemoryLimit>
+    <ResampleAlg>NearestNeighbour</ResampleAlg>
+    <WorkingDataType>Int16</WorkingDataType>
+    <Option name="INIT_DEST">NO_DATA</Option>
+    <SourceDataset relativeToVRT="0">/data/maps/WAORCA_biomass/default.vrt</SourceDataset>
+    <Transformer>
+      <GenImgProjTransformer>
+        <SrcGeoTransform>-2367015,29.9999999999999964,0,3182985,0,-29.9999999999999964</SrcGeoTransform>
+        <SrcInvGeoTransform>78900.5000000000146,0.0333333333333333398,0,106099.500000000015,0,-0.0333333333333333398</SrcInvGeoTransform>
+        <DstGeoTransform>-14256654.8464286048,39.7430606151781518,0,6467173.334765804,0,-39.7430606151781518</DstGeoTransform>
+        <DstInvGeoTransform>358720.607465844951,0.0251616253132274613,0,162724.592285072926,0,-0.0251616253132274613</DstInvGeoTransform>
+        <ReprojectTransformer>
+          <ReprojectionTransformer>
+            <SourceSRS>PROJCS["Albers",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.2572221010042,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4269"]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["standard_parallel_1",29.5],PARAMETER["standard_parallel_2",45.5],PARAMETER["latitude_of_center",23],PARAMETER["longitude_of_center",-96],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</SourceSRS>
+            <TargetSRS>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</TargetSRS>
+          </ReprojectionTransformer>
+        </ReprojectTransformer>
+      </GenImgProjTransformer>
+    </Transformer>
+    <BandList>
+      <BandMapping src="1" dst="1">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="2" dst="2">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="3" dst="3">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="4" dst="4">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="5" dst="5">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="6" dst="6">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="7" dst="7">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="8" dst="8">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="9" dst="9">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="10" dst="10">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="11" dst="11">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="12" dst="12">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="13" dst="13">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="14" dst="14">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="15" dst="15">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="16" dst="16">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="17" dst="17">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="18" dst="18">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="19" dst="19">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="20" dst="20">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="21" dst="21">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="22" dst="22">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+      <BandMapping src="23" dst="23">
+        <SrcNoDataReal>-9999</SrcNoDataReal>
+        <SrcNoDataImag>0</SrcNoDataImag>
+        <DstNoDataReal>-9999</DstNoDataReal>
+        <DstNoDataImag>0</DstNoDataImag>
+      </BandMapping>
+    </BandList>
+  </GDALWarpOptions>
+</VRTDataset>

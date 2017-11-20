@@ -1,0 +1,41 @@
+Todo :
+
+* Datasets are conceptual groupings of data, called 'assets'. Assets are explicitly spatio-temporal data repositories, either as multi-band TIF, kml, csv etc.
+* Datasets have a metadata file giving information on the overall dataset.
+* Each Asset also has its own metadata file. Heirarchial relationship information comes from the directory structure.
+
+* Web-queriable script to get information on dataset and each asset.
+
+* Object oriented design in python. Take some cues from earth engine's conceptual structuring of data / process.
+
+
+
+Calls / Operations:
+
+command = {'operation': 'Window',
+           'asset': asset,
+           'window': bounds,
+           'srs': EPSG4326_WKT,
+           'srs_type': 'WKT',
+           'window_size': [256,256],
+           'output': 'PNG'
+           }
+
+           
+SRS definitions are parsed by one of OSR's import functions. You can 
+either supply a case-insensitve string designating what kind of spatial
+reference string was passed in 'srs', or if missing, the API will take
+a guess by passing the definition to OSR.SetFromUserInput().
+
+srs: A string defining a spatial reference.
+srs_type:
+        WKT: Well Known Text 
+        PROJ4: proj4 
+        EPSG: EPSG GCS or PCS code, either as "EPSG:####" or "####"
+        ESRI or PRJ: ESRI .prj format
+        GML: Geography Markup Language CRS 
+        MAPINFO: MapInfo style CoordSys definition
+        OZI: OziExplorer .MAP file
+        URN: OGC URN prefixed with "urn:ogc:def:crs
+        WMSAUTO: Projections from the WMS AUTO:##### namespace
+        
